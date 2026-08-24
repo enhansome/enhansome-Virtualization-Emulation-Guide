@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "description": "Note: You can easily convert this markdown file to a PDF in VSCode using this handy extension Markdown PDF.\nVirtualization Technology Under the Hood. Source: NI\nArchitecture of Para-Virtualization. Source: ResearchGate\nMonolithic (VMware vSphere) and Microkernelized (Microsoft Hyper-V) Hypervisors. Source: ResearchGate\nHypervisor-based vs Container-based Virtualization. Source: ResearchGate\nBack to the Top\nVirtualization is a process that creates a simulated, or virtual, computing environment as opposed to a physical environment. Virtualization often includes computer-generated versions of hardware, operating systems, storage devices, and more. This allows organizations to partition a single physical computer or server into several virtual machines.\nEmulation is the process of using hardware or software that enables one computer system to behave like another computer system.\nSimulation is an animated model that mimics the operation of a real-world process or proposed system over time.\nHypervisor is a software that creates and runs virtual machines (VMs). This allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.\nMonolithic Hypervisor is a bare-metal hypervisor, where virtualization software is installed directly on the hardware where the operating system is normally installed. Because bare-metal hypervisors are isolated from the attack-prone operating system, they are extremely secure. In addition, they generally perform better and more efficiently than hosted hypervisors. For these reasons, most enterprise companies choose bare-metal hypervisors for data center computing needs.\nMicrokernelized Hypervisor is a hosted hypervisor that acts as a software layer running on top of the operating system (OS) of the host machine. Although hosted hypervisors run within the OS, additional operating systems (Windows, macOS, and Linux) can be installed on top of the hypervisor. The downside of hosted hypervisors is that latency is higher than bare-metal hypervisors. This is caused by communication between the hardware and the hypervisor must pass through the extra layer of the OS.\nvirtual Dedicated Graphics Accelerator (vDGA) is a type of hardware accelerator that takes care of sending and refreshing high-end 3D graphics. This frees up the main system for other tasks and greatly increases the display speed of images. For industries where there is a need to quickly visualize complex data, this technology can be very useful.\nEthernet Speed Bridges are devices that enable you to implement Ethernet connectivity to a host processor via USB, High-Speed Inter-Chip (HSIC), Peripheral Component Interconnect (PCI™) or PCI Express ® (PCIe ®) interfaces. In the case of USB, these solutions enable fanning out the local bus, providing flexibility towards additional downstream ports.\nRemote Access Service (RAS) is a tool that provides remote access capabilities to client applications on computers running Windows.\nRegister-Transfer Level (RTL) is a design abstraction which models a synchronous digital circuit in terms of the flow of digital signals (data) between hardware registers, and the logical operations performed on those signals. It's used in hardware description languages (HDLs) like Verilog and VHDL to create high-level representations of a circuit, from which lower-level representations and ultimately actual wiring can be derived. Design at the RTL level is typical practice in modern digital design.\nGraphics Processing Unit (GPU) is a circuit that's composed of hundreds of cores that can handle thousands of threads simultaneously. GPUS can rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. They are used in embedded systems, mobile phones, personal computers, professional workstations, and game consoles.\nRandom Access Memory (RAM) is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory, in contrast with other direct-access data storage media.\nVideo Random Access Memory (VRAM) is the RAM allocated to store image or graphics related data. It functions in the same way as RAM, storing specific data for easier access and performance. Image data is first read by the processor and written on the VRAM. It is then converted by a RAMDAC or a RAM digital-to-analog converter and display as graphics output.\nGraphics Double Data Rate (GDDR) SDRAM is a type of synchronous graphics random-access memory (SGRAM) with a high bandwidth (\"double data rate\") interface designed for use in graphics cards, game consoles, and high-performance computing.\nIntegrated Graphics Processing Unit (IGPU) is a component built on the same die (integrated circuit) with the CPU (AMD Ryzen APU or Intel HD Graphics) that utilizes a portion of the computer's system RAM rather than dedicated graphics memory.\nCentral Processing Unit (CPU) is a circuit that's composed of multiple cores that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This is different from other external components such as main memory, I/O circuitry, and graphics processing units (GPUs).\nVector Processor is a central processing unit (CPU) that implements an instruction set where its instructions are designed to operate efficiently and effectively on large one-dimensional arrays of data called vectors.\nApplication Specific Integrated Circuits (ASICs) is an integrated circuit (IC) chip customized for a particular use in embedded systems, mobile phones, personal computers, professional workstations, rather than intended for general use.\nSingle Instruction, Multiple Data (SIMD) is a type of parallel processing that describes computers with multiple processing elements that perform the same operation on multiple data points simultaneously.\nCloud and Virtualization Concepts Course | VMware\nNetwork Virtualization Concepts Course | VMware\nSoftware Defined Storage Concepts Course | VMware\nAzure Virtual Desktop | Microsoft Azure\nVirtual Machines (VMs) for Linux and Windows | Microsoft Azure\nAzure Compute—Virtualization and Scalability | Microsoft Azure\nDevice identity and desktop virtualization | Azure Active Directory\nAmazon Virtual Private Cloud | AWS Documentation\nLinux AMI virtualization types | Amazon Elastic Compute Cloud\nCompute Engine: Virtual Machines (VMs) | Google Cloud\nNested virtualization | Google Cloud\nZone virtualization | Google Cloud\nRed Hat Certified Specialist in Virtualization\nOracle Virtualization Training and Certification\nCitrix Certified Associate – Networking(CCA-N)\nCitrix Certified Professional – Virtualization(CCP-V)\nCCNP Routing and Switching\nVirtualizing Enterprise Desktops and Apps Course | Microsoft Learn\nTop Virtualization Courses Online | Udemy\nTop Virtualization Courses Online | Coursera\nVirtualization Training | Pluralsight\nVirtualization Training Courses | Global Knowledge\nIntroduction to Virtualization Technologies Course | Cloud Academy",
+      "description": "Note: You can easily convert this markdown file to a PDF in VSCode using this handy extension Markdown PDF.\nVirtualization Technology Under the Hood. Source: NI\nArchitecture of Para-Virtualization. Source: ResearchGate\nMonolithic (VMware vSphere) and Microkernelized (Microsoft Hyper-V) Hypervisors. Source: ResearchGate\nHypervisor-based vs Container-based Virtualization. Source: ResearchGate\nVirtualization is a process that creates a simulated, or virtual, computing environment as opposed to a physical environment. Virtualization often includes computer-generated versions of hardware, operating systems, storage devices, and more. This allows organizations to partition a single physical computer or server into several virtual machines.\nEmulation is the process of using hardware or software that enables one computer system to behave like another computer system.\nSimulation is an animated model that mimics the operation of a real-world process or proposed system over time.\nHypervisor is a software that creates and runs virtual machines (VMs). This allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.\nMonolithic Hypervisor is a bare-metal hypervisor, where virtualization software is installed directly on the hardware where the operating system is normally installed. Because bare-metal hypervisors are isolated from the attack-prone operating system, they are extremely secure. In addition, they generally perform better and more efficiently than hosted hypervisors. For these reasons, most enterprise companies choose bare-metal hypervisors for data center computing needs.\nMicrokernelized Hypervisor is a hosted hypervisor that acts as a software layer running on top of the operating system (OS) of the host machine. Although hosted hypervisors run within the OS, additional operating systems (Windows, macOS, and Linux) can be installed on top of the hypervisor. The downside of hosted hypervisors is that latency is higher than bare-metal hypervisors. This is caused by communication between the hardware and the hypervisor must pass through the extra layer of the OS.\nvirtual Dedicated Graphics Accelerator (vDGA) is a type of hardware accelerator that takes care of sending and refreshing high-end 3D graphics. This frees up the main system for other tasks and greatly increases the display speed of images. For industries where there is a need to quickly visualize complex data, this technology can be very useful.\nEthernet Speed Bridges are devices that enable you to implement Ethernet connectivity to a host processor via USB, High-Speed Inter-Chip (HSIC), Peripheral Component Interconnect (PCI™) or PCI Express ® (PCIe ®) interfaces. In the case of USB, these solutions enable fanning out the local bus, providing flexibility towards additional downstream ports.\nRemote Access Service (RAS) is a tool that provides remote access capabilities to client applications on computers running Windows.\nRegister-Transfer Level (RTL) is a design abstraction which models a synchronous digital circuit in terms of the flow of digital signals (data) between hardware registers, and the logical operations performed on those signals. It's used in hardware description languages (HDLs) like Verilog and VHDL to create high-level representations of a circuit, from which lower-level representations and ultimately actual wiring can be derived. Design at the RTL level is typical practice in modern digital design.\nGraphics Processing Unit (GPU) is a circuit that's composed of hundreds of cores that can handle thousands of threads simultaneously. GPUS can rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. They are used in embedded systems, mobile phones, personal computers, professional workstations, and game consoles.\nRandom Access Memory (RAM) is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory, in contrast with other direct-access data storage media.\nVideo Random Access Memory (VRAM) is the RAM allocated to store image or graphics related data. It functions in the same way as RAM, storing specific data for easier access and performance. Image data is first read by the processor and written on the VRAM. It is then converted by a RAMDAC or a RAM digital-to-analog converter and display as graphics output.\nGraphics Double Data Rate (GDDR) SDRAM is a type of synchronous graphics random-access memory (SGRAM) with a high bandwidth (\"double data rate\") interface designed for use in graphics cards, game consoles, and high-performance computing.\nIntegrated Graphics Processing Unit (IGPU) is a component built on the same die (integrated circuit) with the CPU (AMD Ryzen APU or Intel HD Graphics) that utilizes a portion of the computer's system RAM rather than dedicated graphics memory.\nCentral Processing Unit (CPU) is a circuit that's composed of multiple cores that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This is different from other external components such as main memory, I/O circuitry, and graphics processing units (GPUs).\nVector Processor is a central processing unit (CPU) that implements an instruction set where its instructions are designed to operate efficiently and effectively on large one-dimensional arrays of data called vectors.\nApplication Specific Integrated Circuits (ASICs) is an integrated circuit (IC) chip customized for a particular use in embedded systems, mobile phones, personal computers, professional workstations, rather than intended for general use.\nSingle Instruction, Multiple Data (SIMD) is a type of parallel processing that describes computers with multiple processing elements that perform the same operation on multiple data points simultaneously.\nCloud and Virtualization Concepts Course | VMware\nNetwork Virtualization Concepts Course | VMware\nSoftware Defined Storage Concepts Course | VMware\nAzure Virtual Desktop | Microsoft Azure\nVirtual Machines (VMs) for Linux and Windows | Microsoft Azure\nAzure Compute—Virtualization and Scalability | Microsoft Azure\nDevice identity and desktop virtualization | Azure Active Directory\nAmazon Virtual Private Cloud | AWS Documentation\nLinux AMI virtualization types | Amazon Elastic Compute Cloud\nCompute Engine: Virtual Machines (VMs) | Google Cloud\nNested virtualization | Google Cloud\nZone virtualization | Google Cloud\nRed Hat Certified Specialist in Virtualization\nOracle Virtualization Training and Certification\nCitrix Certified Associate – Networking(CCA-N)\nCitrix Certified Professional – Virtualization(CCP-V)\nCCNP Routing and Switching\nVirtualizing Enterprise Desktops and Apps Course | Microsoft Learn\nTop Virtualization Courses Online | Udemy\nTop Virtualization Courses Online | Coursera\nVirtualization Training | Pluralsight\nVirtualization Training Courses | Global Knowledge\nIntroduction to Virtualization Technologies Course | Cloud Academy",
       "items": [
         {
           "node_type": "item",
@@ -275,10 +275,1996 @@
         }
       ],
       "title": "A guide covering including the applications, libraries and tools that will make you a better and more efficient with your powered device."
+    },
+    {
+      "description": "HVM (Hardware Virtual Machine) is a virtualization type that provides the ability to run an operating system directly on top of a virtual machine without any modification, as if it were run on the bare-metal hardware.\nPV(ParaVirtualization) is an efficient and lightweight virtualization technique introduced by the Xen Project team, later adopted by other virtualization solutions. PV does not require virtualization extensions from the host CPU and thus enables virtualization on hardware architectures that do not support Hardware-assisted virtualization.\nNetwork functions virtualization (NFV) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions.\nSoftware Defined Networking (SDN) is an approach to networking that uses software-based controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network. This model differs from that of traditional networks, which use dedicated hardware devices (routers and switches) to control network traffic.\nVirtualized Infrastructure Manager (VIM) is a service delivery and reduce costs with high performance lifecycle management Manage the full lifecycle of the software and hardware comprising your NFV infrastructure (NFVI), and maintaining a live inventory and allocation plan of both physical and virtual resources.\nManagement and Orchestration(MANO) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.\nMagma is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.\nOpenRAN is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.\nOpen vSwitch(OVS)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).\nEdge is a distributed computing framework that brings enterprise applications closer to data sources such as IoT devices or local edge servers. This proximity to data at its source can deliver strong business benefits, including faster insights, improved response times and better bandwidth availability.\nMulti-access edge computing (MEC) is an Industry Specification Group (ISG) within ETSI to create a standardized, open environment which will allow the efficient and seamless integration of applications from vendors, service providers, and third-parties across multi-vendor Multi-access Edge Computing platforms.\nVirtualized network functions(VNFs) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.\nCloud-Native Network Functions(CNF) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes(K8s) lifecycle management, agility, resilience, and observability.\nPhysical Network Function(PNF) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.\nNetwork functions virtualization infrastructure(NFVI) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.\nVirtualization-based Security (VBS) is a hardware virtualization feature to create and isolate a secure region of memory from the normal operating system.\nHypervisor-Enforced Code Integrity (HVCI) is a mechanism whereby a hypervisor, such as Hyper-V, uses hardware virtualization to protect kernel-mode processes against the injection and execution of malicious or unverified code. Code integrity validation is performed in a secure environment that is resistant to attack from malicious software, and page permissions for kernel mode are set and maintained by the hypervisor.\nNVIDIA virtual GPU (vGPU) is a software enables powerful GPU performance for workloads ranging from graphics-rich virtual workstations to data science and AI, enabling IT to leverage the management and security benefits of virtualization as well as the performance of NVIDIA GPUs required for modern workloads.\nAMD MxGPU is a hardware-based virtualized GPU solution, is built on industry standard SR-IOV (Single-Root I/O Virtualization) technology and allows multiple virtualized users per physical GPU to work remotely.\nProxmox Virtual Environment(VE) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.\nKVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.\nQEMU is a fast processor emulator using a portable dynamic translator. QEMU emulates a full system, including a processor and various peripherals. It can be used to launch a different Operating System without rebooting the PC or to debug system code.\nAWS ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. Amazon ECS eliminates the need for you to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.\nHyper-V enables running virtualized computer systems on top of a physical host. These virtualized systems can be used and managed just as if they were physical computer systems, however they exist in virtualized and isolated environment. Special software called a hypervisor manages access between the virtual systems and the physical hardware resources. Virtualization enables quick deployment of computer systems, a way to quickly restore systems to a previously known good state, and the ability to migrate systems between physical hosts.\nInsightVM is a data-rich resource that can amplify the other solutions in your tech stack, from SIEMs and firewalls to ticketing systems. Only InsightVM integrates with 40+ other leading technologies, and with an open RESTful API, your vulnerability data makes your other tools more valuable.\nVMware vSphere Hypervisor is a bare-metal hypervisor that virtualizes servers; allowing you to consolidate your applications while saving time and money managing your IT infrastructure.\nVMware vSphere is the industry-leading compute virtualization platform, and your first step to application modernization. It has been rearchitected with native Kubernetes to allow customers to modernize the 70 million+ workloads now running on vSphere.\noVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible. Founded by Red Hat as a community project on which Red Hat Enterprise Virtualization is based allowing for centralized management of virtual machines, compute, storage and networking resources, from an easy-to-use web-based front-end with platform independent access.\nFirecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. It runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers.\nForeman is a free open source project that gives you the power to easily automate repetitive tasks, quickly deploy applications, and proactively manage your servers life cycle, on-premises or in the cloud.\nHarvester is an open source hyper-converged infrastructure (HCI) software built on Kubernetes.\nAnthos is a modern application management platform that provides a consistent development and operations experience for cloud and on-premises environments.\nApple Hypervisor is a frameowrk that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the Mac App Store.\nApple Virtualization Framework is a framework that provides high-level APIs for creating and managing virtual machines on Apple silicon and Intel-based Mac computers. This framework is used to boot and run a Linux-based operating system in a custom environment that you define. It also supports the Virtio specification, which defines standard interfaces for many device types, including network, socket, serial port, storage, entropy, and memory-balloon devices.\nApple Paravirtualized Graphics Framework is a framework that implements hardware-accelerated graphics for macOS running in a virtual machine, hereafter known as the guest. The operating system provides a graphics driver that runs inside the guest, communicating with the framework in the host operating system to take advantage of Metal-accelerated graphics.\nPacker is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.\nVagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the \"works on my machine\" excuse a relic of the past. It provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.\nParallels Desktop is a Desktop Hypervisor that delivers the fastest, easiest and most powerful application for running Windows/Linux on Mac (including the new Apple M1 chip) and ChromeOS.\nVMware Fusion is a Desktop Hypervisor that deliver desktop and ‘server’ virtual machines, containers and Kubernetes clusters to developers, and IT professionals on the Mac.\nVMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems; it enables users to set up virtual machines on a single physical machine, and use them simultaneously along with the actual machine.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Quickemu",
+          "description": "is a program that quickly create and run optimised Windows, macOS and Linux desktop virtual machines.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 247567645,
+            "language": "Shell",
+            "last_commit": "2026-08-14T14:03:22Z",
+            "owner": "quickemu-project",
+            "repo": "quickemu",
+            "stars": 15708
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cloud Hypervisor",
+          "description": "is an open source Virtual Machine Monitor (VMM) that runs on top of KVM. The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in Rust and is based on the rust-vmm crates.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 184341774,
+            "language": "Rust",
+            "last_commit": "2026-08-24T14:42:00Z",
+            "owner": "cloud-hypervisor",
+            "repo": "cloud-hypervisor",
+            "stars": 6138
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VirtManager",
+          "description": "is a graphical tool for managing virtual machines via libvirt. Most usage is with QEMU/KVM virtual machines, but Xen and libvirt LXC containers are well supported. Common operations for any libvirt driver should work.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 36043078,
+            "language": "Python",
+            "last_commit": "2026-08-15T09:29:59Z",
+            "owner": "virt-manager",
+            "repo": "virt-manager",
+            "stars": 3230
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HyperKit",
+          "description": "is a toolkit for embedding hypervisor capabilities in your application. It includes a complete hypervisor, based on xhyve/bhyve, which is optimized for lightweight virtual machines and container deployment. It is designed to be interfaced with higher-level components such as the VPNKit and DataKit. HyperKit currently only supports macOS using the Hypervisor.framework making it a core component of Docker Desktop for Mac.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 55985023,
+            "language": "C",
+            "last_commit": "2023-04-28T01:30:42Z",
+            "owner": "moby",
+            "repo": "hyperkit",
+            "stars": 3713
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Intel® Graphics Virtualization Technology (Intel® GVT)",
+          "description": "is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics(Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 69382523,
+            "language": "C",
+            "last_commit": "2024-10-03T23:51:16Z",
+            "owner": "intel",
+            "repo": "gvt-linux",
+            "stars": 516
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Xen",
+          "description": "is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 51007072,
+            "language": "C",
+            "last_commit": "2026-08-24T12:43:50Z",
+            "owner": "xen-project",
+            "repo": "xen",
+            "stars": 840
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ganeti",
+          "description": "is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 25163509,
+            "language": "Python",
+            "last_commit": "2026-07-27T10:06:33Z",
+            "owner": "ganeti",
+            "repo": "ganeti",
+            "stars": 581
+          }
+        }
+      ],
+      "title": "Virtualization Tools"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cURL Fuzzer",
+              "description": "is a quality assurance testing for the curl project.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 104416990,
+                "language": "C++",
+                "last_commit": "2026-08-21T18:05:43Z",
+                "owner": "curl",
+                "repo": "curl-fuzzer",
+                "stars": 100
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DoH",
+              "description": "is a stand-alone application for DoH (DNS-over-HTTPS) name resolves and lookups.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 130464872,
+                "language": "C",
+                "last_commit": "2026-04-28T19:02:38Z",
+                "owner": "curl",
+                "repo": "doh",
+                "stars": 431
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HTTPie",
+              "description": "is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3544424,
+                "language": "Python",
+                "last_commit": "2024-12-17T17:30:35Z",
+                "owner": "httpie",
+                "repo": "cli",
+                "stars": 38446
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HTTPStat",
+              "description": "is a tool that visualizes curl statistics in a simple layout.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 66913302,
+                "language": "Python",
+                "last_commit": "2026-04-08T10:04:34Z",
+                "owner": "reorx",
+                "repo": "httpstat",
+                "stars": 6215
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Wuzz",
+              "description": "is an interactive cli tool for HTTP inspection. It can be used to inspect/modify requests copied from the browser's network inspector with the \"copy as cURL\" feature.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 80465011,
+                "language": "Go",
+                "last_commit": "2026-08-04T12:36:56Z",
+                "owner": "asciimoo",
+                "repo": "wuzz",
+                "stars": 10720
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Websocat",
+              "description": "is a ommand-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74579985,
+                "language": "Rust",
+                "last_commit": "2026-08-13T10:17:56Z",
+                "owner": "vi",
+                "repo": "websocat",
+                "stars": 8673
+              }
+            }
+          ],
+          "description": "cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols(HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP or SMTPS). cURL is also used in cars, television sets, routers, printers, audio equipment, mobile phones, tablets, settop boxes, media players and is the Internet transfer engine for thousands of software applications in over ten billion installations.\nAuthelia is an open-source highly-available authentication server providing single sign-on capability and two-factor authentication to applications running behind NGINX.\nnginx(engine x) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.\nProxmox Virtual Environment(VE) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.\nWireshark is a very popular network protocol analyzer that is commonly used for network troubleshooting, analysis, and communications protocol development. Learn more about the other useful Wireshark Tools available.\nPackets have a header portion that contains information about the packet including the source and destination, timestamps, network hops. The main portion of a packet contains the actual data being transferred. It is sometimes called the body or the payload.\nA network interface may be associated with a physical device, or it may be a representation of a virtual interface. The \"loop-back\" device, which is a virtual interface to the local machine, is an example of this.\nIf an interface is connected to the WAN, it is generally assumed that it is reachable through the internet.\nSome low level protocols are TCP, UDP, IP, and ICMP. Some familiar examples of application layer protocols, built on these lower protocols, are HTTP (for accessing web content), SSH, TLS/SSL, and FTP.",
+          "node_type": "group",
+          "title": "Networking Tools & Concepts"
+        }
+      ],
+      "title": "Networking"
+    },
+    {
+      "description": "Building Highly-Availability(HA) Clusters with kubeadm. Source: Kubernetes.io",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Kata Operator",
+              "description": "is an operator to perform lifecycle management (install/upgrade/uninstall) of Kata Runtime on Openshift as well as Kubernetes cluster.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 286818960,
+                "language": "Shell",
+                "last_commit": "2026-08-24T13:23:39Z",
+                "owner": "openshift",
+                "repo": "sandboxed-containers-operator",
+                "stars": 50
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenShift Hive",
+              "description": "is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 148682741,
+                "language": "Go",
+                "last_commit": "2026-08-21T19:47:47Z",
+                "owner": "openshift",
+                "repo": "hive",
+                "stars": 275
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "KubeInit",
+              "description": "provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 283747774,
+                "language": "Python",
+                "last_commit": "2025-12-05T21:26:59Z",
+                "owner": "Kubeinit",
+                "repo": "kubeinit",
+                "stars": 223
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "K3s",
+              "description": "is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 135516270,
+                "language": "Go",
+                "last_commit": "2026-08-22T18:13:00Z",
+                "owner": "k3s-io",
+                "repo": "k3s",
+                "stars": 33803
+              }
+            }
+          ],
+          "description": "Open Container Initiative is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.\nBuildah is a command line tool to build Open Container Initiative (OCI) images. It can be used with Docker, Podman, Kubernetes.\nPodman is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface (CLI) familiar to anyone who has used the Docker Container Engine.\nContainerd is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.\nGoogle Kubernetes Engine (GKE) is a managed, production-ready environment for running containerized applications.\nAzure Kubernetes Service (AKS) is serverless Kubernetes, with a integrated continuous integration and continuous delivery (CI/CD) experience, and enterprise-grade security and governance. Unite your development and operations teams on a single platform to rapidly build, deliver, and scale applications with confidence.\nAmazon EKS is a tool that runs Kubernetes control plane instances across multiple Availability Zones to ensure high availability.\nAWS Controllers for Kubernetes (ACK) is a new tool that lets you directly manage AWS services from Kubernetes. ACK makes it simple to build scalable and highly-available Kubernetes applications that utilize AWS services.\nContainer Engine for Kubernetes (OKE) is an Oracle-managed container orchestration service that can reduce the time and cost to build modern cloud native applications. Unlike most other vendors, Oracle Cloud Infrastructure provides Container Engine for Kubernetes as a free service that runs on higher-performance, lower-cost compute.\nAnthos is a modern application management platform that provides a consistent development and operations experience for cloud and on-premises environments.\nRed Hat Openshift is a fully managed Kubernetes platform that provides a foundation for on-premises, hybrid, and multicloud deployments.\nOKD is a community distribution of Kubernetes optimized for continuous application development and multi-tenant deployment. OKD adds developer and operations-centric tools on top of Kubernetes to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams.\nOdo is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.\nThanos is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.\nRook is a tool that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.\nVMware Tanzu is a centralized management platform for consistently operating and securing your Kubernetes infrastructure and modern applications across multiple teams and private/public clouds.\nKubespray is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on AWS, GCE, Azure, OpenStack, vSphere, Packet (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.\nRancher is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.\nHelm is a Kubernetes Package Manager tool that makes it easier to install and manage Kubernetes applications.\nKnative is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads. Knative takes care of the operational overhead details of networking, autoscaling (even to zero), and revision tracking.\nKubeFlow is a tool dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable.\nEtcd is a distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. Etcd is used as the backend for service discovery and stores cluster state and configuration for Kubernetes.\nOpenEBS is a Kubernetes-based tool to create stateful applications using Container Attached Storage.\nContainer Storage Interface (CSI) is an API that lets container orchestration platforms like Kubernetes seamlessly communicate with stored data via a plug-in.\nMicroK8s is a tool that delivers the full Kubernetes experience. In a Fully containerized deployment with compressed over-the-air updates for ultra-reliable operations. It is supported on Linux, Windows, and MacOS.\nCharmed Kubernetes is a well integrated, turn-key, conformant Kubernetes platform, optimized for your multi-cloud environments developed by Canonical.\nGrafana Kubernetes App is a toll that allows you to monitor your Kubernetes cluster's performance. It includes 4 dashboards, Cluster, Node, Pod/Container and Deployment. It allows for the automatic deployment of the required Prometheus exporters and a default scrape config to use with your in cluster Prometheus deployment.\nKubeEdge is an open source system for extending native containerized application orchestration capabilities to hosts at Edge.It is built upon kubernetes and provides fundamental infrastructure support for network, app. deployment and metadata synchronization between cloud and edge.\nLens is the most powerful IDE for people who need to deal with Kubernetes clusters on a daily basis. It has support for MacOS, Windows and Linux operating systems.\nkind is a tool for running local Kubernetes clusters using Docker container “nodes”. It was primarily designed for testing Kubernetes itself, but may be used for local development or CI.\nFlux CD is a tool that automatically ensures that the state of your Kubernetes cluster matches the configuration you've supplied in Git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means that you don't need a separate continuous delivery tool.\nPlatform9 Managed Kubernetes (PMK) is a Kubernetes as a service that ensures fully automated Day-2 operations with 99.9% SLA on any environment, whether in data-centers, public clouds, or at the edge.",
+          "node_type": "group",
+          "title": "Kubernetes Tools, Frameworks, and Projects"
+        }
+      ],
+      "title": "Kubernetes"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "SiFive FPGA shells",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 98235760,
+                "language": "Scala",
+                "last_commit": "2022-05-13T18:08:40Z",
+                "owner": "sifive",
+                "repo": "fpga-shells",
+                "stars": 139
+              }
+            }
+          ],
+          "description": "FPGA(Field Programmable Gate Arrays) are semiconductor devices that are based around a matrix of configurable logic blocks (CLBs) connected via programmable interconnects. FPGAs can be reprogrammed to desired application or functionality requirements after manufacturing.\nTinyFPGA is a new series of boards that are low-cost, open source FPGA boards in a tiny form factor.\nFPGA & SoC Design Tools from Microsemi\nQuickLogic Embedded FPGA (eFPGA) Intellectual Property (IP) and Software\nFPGA for Beginners with Development Boards from Digilent®\nHundreds of FPGA Projects on Instructables\nFPGA Fundamentals from NI(National Instruments)\nGetting Started With LabVIEW FPGA from NI(National Instruments)\nProgramming and FPGA Basics - INTEL® FPGAS\nIntel FPGA Training Program\nFPGA Courses on Coursera\nFPGA Courses on Udemy\nFPGA Online Training Courses on LinkedIn Learning\nUMass Lowell's Graduate Certificate in Field Programmable Gate Arrays(FPGA)\nFPGA Design Fundamentals Course (UC San Diego Extension)\nFPGA II Course (UC San Diego Extension)\nFPGAs & SoCs Training from Microsemi\nDSP fundamentals for FPGAs course from MATLAB and Simulink Training\nVerilog Courses on Coursera",
+          "node_type": "group",
+          "title": "FPGA Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Apio",
+              "description": "is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51361989,
+                "language": "Python",
+                "last_commit": "2026-08-24T01:27:02Z",
+                "owner": "FPGAwars",
+                "repo": "apio",
+                "stars": 1002
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IceStorm",
+              "description": "is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39295557,
+                "language": "Python",
+                "last_commit": "2026-02-26T14:31:07Z",
+                "owner": "YosysHQ",
+                "repo": "icestorm",
+                "stars": 1182
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FuseSoC",
+              "description": "is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code and FPGA/ASIC development.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16964283,
+                "language": "Python",
+                "last_commit": "2026-08-24T12:37:32Z",
+                "owner": "olofk",
+                "repo": "fusesoc",
+                "stars": 1453
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenWiFi",
+              "description": "is an open-source IEEE802.11/Wi-Fi baseband chip/FPGA design.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 220449772,
+                "language": "C",
+                "last_commit": "2026-08-14T08:29:00Z",
+                "owner": "open-sdr",
+                "repo": "openwifi",
+                "stars": 4768
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PipeCNN",
+              "description": "is an OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks (CNNs). Currently, there is a growing trend among developers in the FPGA community to utilize High Level Synthesis (HLS) tools to design and implement customized circuits on FPGAs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 73077215,
+                "language": "C",
+                "last_commit": "2022-02-14T23:59:36Z",
+                "owner": "doonny",
+                "repo": "PipeCNN",
+                "stars": 1386
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenTimer",
+              "description": "is a High-Performance Timing Analysis Tool for VLSI Systems.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39079545,
+                "language": "Verilog",
+                "last_commit": "2025-12-26T05:39:10Z",
+                "owner": "OpenTimer",
+                "repo": "OpenTimer",
+                "stars": 713
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "The Eclipse Embedded CDT",
+              "description": "is a collection of plug-ins for Arm & RISC-V C/C++ developers. Unicorn is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on QEMU.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 40909787,
+                "language": "C",
+                "last_commit": "2026-08-21T19:10:28Z",
+                "owner": "eclipse-embed-cdt",
+                "repo": "eclipse-plugins",
+                "stars": 560
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Keystone",
+              "description": "is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57302200,
+                "language": "C++",
+                "last_commit": "2026-07-18T21:28:10Z",
+                "owner": "keystone-engine",
+                "repo": "keystone",
+                "stars": 2623
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Reko",
+              "description": "is a decompiler for machine code binaries.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39718308,
+                "language": "C#",
+                "last_commit": "2026-08-23T23:21:17Z",
+                "owner": "uxmal",
+                "repo": "reko",
+                "stars": 2598
+              }
+            }
+          ],
+          "description": "LabVIEW FPGA is a software add-on for LabVIEW that you can use to more efficiently and effectively design FPGA-based systems through a highly integrated development environment, IP libraries, a high-fidelity simulator, and debugging features.\nIcestudio is a visual editor for open FPGA boards. Built on top of the Icestorm project using Apio.\nVerilator is an open-source SystemVerilog simulator and lint system.\nVerilog to Routing(VTR) is a collaborative project to provide a open-source framework for conducting FPGA architecture and CAD Research & Development. The VTR design flow takes as input a Verilog description of a digital circuit, and a description of the target FPGA architecture.\nPlatformIO is a professional collaborative platform for embedded development with no vendor lock-in. It provides support for multiplatforms and frameworks such as IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbed OS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V.\nPlatformIO for VSCode is a plugin that provides support for the PlatformIO IDE on VSCode.\nTock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.\nLLVM is a library that has collection of modular/reusable compiler and toolchain components (assemblers, compilers, debuggers, etc.). With these components LLVM can be used as a compiler framework, providing a front-end(parser and lexer) and a back-end (code that converts LLVM's representation to actual machine code).\nTinyGo is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.\nChipyard is an open source framework for agile development of Chisel-based systems-on-chip. It will allow you to leverage the Chisel HDL, Rocket Chip SoC generator, and other Berkeley projects to produce a RISC-V SoC with everything from MMIO-mapped peripherals to custom accelerators.\nRenode is Antmicro's virtual development framework for multinode embedded networks (both wired and wireless) and is intended to enable a scalable workflow for creating effective, tested and secure IoT systems.\nDiosix is a lightweight, secure, multiprocessor bare-metal hypervisor written in Rust for RISC-V.",
+          "node_type": "group",
+          "title": "FPGA Tools"
+        }
+      ],
+      "title": "FPGA Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Apio",
+              "description": "is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51361989,
+                "language": "Python",
+                "last_commit": "2026-08-24T01:27:02Z",
+                "owner": "FPGAwars",
+                "repo": "apio",
+                "stars": 1002
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IceStorm",
+              "description": "is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39295557,
+                "language": "Python",
+                "last_commit": "2026-02-26T14:31:07Z",
+                "owner": "YosysHQ",
+                "repo": "icestorm",
+                "stars": 1182
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cascade",
+              "description": "is a Just-In-Time Compiler for Verilog from VMware Research. Cascade executes code immediately in a software simulator, and performs compilation in the background. When compilation is finished, the code is moved into hardware, and from the user’s perspective it simply gets faster over time.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 147731281,
+                "language": "C++",
+                "last_commit": "2021-07-01T14:03:05Z",
+                "owner": "vmware-archive",
+                "repo": "cascade",
+                "stars": 446
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenTimer",
+              "description": "is a High-Performance Timing Analysis Tool for VLSI Systems.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39079545,
+                "language": "Verilog",
+                "last_commit": "2025-12-26T05:39:10Z",
+                "owner": "OpenTimer",
+                "repo": "OpenTimer",
+                "stars": 713
+              }
+            }
+          ],
+          "description": "Icestudio is a visual editor for open FPGA boards. Built on top of the Icestorm project using Apio.\nEDA Playground is a online code for programming your Verilog projects.\nPlatformIO is a professional collaborative platform for embedded development with no vendor lock-in. It provides support for multiplatforms and frameworks such as IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbed OS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V.\nPlatformIO for VSCode is a plugin that provides support for the PlatformIO IDE on VSCode.\nChisel is a hardware design language that facilitates advanced circuit generation and design reuse for both ASIC and FPGA digital logic designs. Chisel adds hardware construction primitives to the Scala programming language, providing designers with the power of a modern programming language to write complex, parameterizable circuit generators that produce synthesizable Verilog.\nClash compiler is a functional hardware description language that borrows both its syntax and semantics from the functional programming language Haskell. The Clash compiler transforms these high-level descriptions to low-level synthesizable VHDL, Verilog, or SystemVerilog.\nVerilator is an open-source SystemVerilog simulator and lint system.\nVerilog to Routing(VTR) is a collaborative project to provide a open-source framework for conducting FPGA architecture and CAD Research & Development. The VTR design flow takes as input a Verilog description of a digital circuit, and a description of the target FPGA architecture.",
+          "node_type": "group",
+          "title": "Verilog/SystemVerilog Tools"
+        }
+      ],
+      "title": "Verilog/SystemVerilog Development"
+    },
+    {
+      "description": "CUDA Toolkit. Source: NVIDIA Developer CUDA",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "NVIDIA Container Toolkit",
+              "description": "is a collection of tools & libraries that allows users to build and run GPU accelerated Docker containers. The toolkit includes a container runtime library and utilities to automatically configure containers to leverage NVIDIA GPUs.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 45557469,
+                "language": null,
+                "last_commit": "2023-12-06T09:16:49Z",
+                "owner": "NVIDIA",
+                "repo": "nvidia-docker",
+                "stars": 17591
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CUTLASS",
+              "description": "is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 112542515,
+                "language": "C++",
+                "last_commit": "2026-08-20T10:37:54Z",
+                "owner": "NVIDIA",
+                "repo": "cutlass",
+                "stars": 10292
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CUB",
+              "description": "is a cooperative primitives for CUDA C++ kernel authors.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 8225159,
+                "language": "Cuda",
+                "last_commit": "2023-10-09T17:44:21Z",
+                "owner": "NVIDIA",
+                "repo": "cub",
+                "stars": 1842
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tensorman",
+              "description": "is a utility for easy management of Tensorflow containers by developed by System76.Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 202021804,
+                "language": "Rust",
+                "last_commit": "2025-10-27T18:21:52Z",
+                "owner": "pop-os",
+                "repo": "tensorman",
+                "stars": 206
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Numba",
+              "description": "is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3659275,
+                "language": "Python",
+                "last_commit": "2026-08-21T17:39:56Z",
+                "owner": "numba",
+                "repo": "numba",
+                "stars": 11126
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "cuML",
+              "description": "is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 152616802,
+                "language": "Python",
+                "last_commit": "2026-08-22T15:05:11Z",
+                "owner": "NVIDIA",
+                "repo": "cuml",
+                "stars": 5260
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Thrust",
+              "description": "is a C++ parallel programming library which resembles the C++ Standard Library. Thrust's high-level interface greatly enhances programmer productivity while enabling performance portability between GPUs and multicore CPUs.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 3633213,
+                "language": "C++",
+                "last_commit": "2024-02-08T15:54:40Z",
+                "owner": "NVIDIA",
+                "repo": "thrust",
+                "stars": 5002
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kintinuous",
+              "description": "is a real-time dense visual SLAM system capable of producing high quality globally consistent point and mesh reconstructions over hundreds of metres in real-time with only a low-cost commodity RGB-D sensor.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 44748381,
+                "language": "C++",
+                "last_commit": "2022-08-26T16:45:24Z",
+                "owner": "mp3guy",
+                "repo": "Kintinuous",
+                "stars": 954
+              }
+            }
+          ],
+          "description": "CUDA Toolkit is a collection of tools & libraries that provide a development environment for creating high performance GPU-accelerated applications. The CUDA Toolkit allows you can develop, optimize, and deploy your applications on GPU-accelerated embedded systems, desktop workstations, enterprise data centers, cloud-based platforms and HPC supercomputers. The toolkit includes GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library to build and deploy your application on major architectures including x86, Arm and POWER.\nNVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. cuDNN accelerates widely used deep learning frameworks, including Caffe2, Chainer, Keras, MATLAB, MxNet, PyTorch, and TensorFlow.\nCUDA-X HPC is a collection of libraries, tools, compilers and APIs that help developers solve the world's most challenging problems. CUDA-X HPC includes highly tuned kernels essential for high-performance computing (HPC).\nMinkowski Engine is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.\nChainer is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using CuPy for high performance training and inference.\nCuPy is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.\nCatBoost is a fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.\ncuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.\nArrayFire is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.\nAresDB is a GPU-powered real-time analytics storage and query engine. It features low query latency, high data freshness and highly efficient in-memory and on disk storage management.\nArraymancer is a tensor (N-dimensional array) project in Nim. The main focus is providing a fast and ergonomic CPU, Cuda and OpenCL ndarray library on which to build a scientific computing ecosystem.\nGraphVite is a general graph embedding engine, dedicated to high-speed and large-scale embedding learning in various applications.",
+          "node_type": "group",
+          "title": "CUDA Tools Libraries, and Frameworks"
+        }
+      ],
+      "title": "CUDA Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "MATLAB Schemer",
+              "description": "is a MATLAB package makes it easy to change the color scheme (theme) of the MATLAB display and GUI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 38539280,
+                "language": "MATLAB",
+                "last_commit": "2023-12-13T03:58:36Z",
+                "owner": "scottclowe",
+                "repo": "matlab-schemer",
+                "stars": 1257
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LRSLibrary",
+              "description": "is a Low-Rank and Sparse Tools for Background Modeling and Subtraction in Videos. The library was designed for moving object detection in videos, but it can be also used for other computer vision and machine learning problems.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 26336532,
+                "language": "MATLAB",
+                "last_commit": "2025-11-22T15:13:28Z",
+                "owner": "andrewssobral",
+                "repo": "lrslibrary",
+                "stars": 886
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gramm",
+              "description": "is a complete data visualization toolbox for Matlab. It provides an easy to use and high-level interface to produce publication-quality plots of complex data with varied statistical visualizations. Gramm is inspired by R's ggplot2 library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 47769110,
+                "language": "HTML",
+                "last_commit": "2026-06-25T13:30:02Z",
+                "owner": "piermorel",
+                "repo": "gramm",
+                "stars": 824
+              }
+            }
+          ],
+          "description": "MATLAB and Simulink Services & Applications List\nMATLAB in the Cloud is a service that allows you to run in cloud environments from MathWorks Cloud to Public Clouds including AWS and Azure.\nMATLAB Online™ is a service that allows to users to uilitize MATLAB and Simulink through a web browser such as Google Chrome.\nSimulink is a block diagram environment for Model-Based Design. It supports simulation, automatic code generation, and continuous testing of embedded systems.\nSimulink Online™ is a service that provides access to Simulink through your web browser.\nMATLAB Drive™ is a service that gives you the ability to store, access, and work with your files from anywhere.\nMATLAB Parallel Server™ is a tool that lets you scale MATLAB® programs and Simulink® simulations to clusters and clouds. You can prototype your programs and simulations on the desktop and then run them on clusters and clouds without recoding. MATLAB Parallel Server supports batch jobs, interactive parallel computations, and distributed computations with large matrices.\nImage Processing Toolbox™ is a tool that provides a comprehensive set of reference-standard algorithms and workflow apps for image processing, analysis, visualization, and algorithm development. You can perform image segmentation, image enhancement, noise reduction, geometric transformations, image registration, and 3D image processing.\nComputer Vision Toolbox™ is a tool that provides algorithms, functions, and apps for designing and testing computer vision, 3D vision, and video processing systems. You can perform object detection and tracking, as well as feature detection, extraction, and matching. You can automate calibration workflows for single, stereo, and fisheye cameras. For 3D vision, the toolbox supports visual and point cloud SLAM, stereo vision, structure from motion, and point cloud processing.\nStatistics and Machine Learning Toolbox™ is a tool that provides functions and apps to describe, analyze, and model data. You can use descriptive statistics, visualizations, and clustering for exploratory data analysis; fit probability distributions to data; generate random numbers for Monte Carlo simulations, and perform hypothesis tests. Regression and classification algorithms let you draw inferences from data and build predictive models either interactively, using the Classification and Regression Learner apps, or programmatically, using AutoML.\nLidar Toolbox™ is a tool that provides algorithms, functions, and apps for designing, analyzing, and testing lidar processing systems. You can perform object detection and tracking, semantic segmentation, shape fitting, lidar registration, and obstacle detection. Lidar Toolbox supports lidar-camera cross calibration for workflows that combine computer vision and lidar processing.\nMapping Toolbox™ is a tool that provides algorithms and functions for transforming geographic data and creating map displays. You can visualize your data in a geographic context, build map displays from more than 60 map projections, and transform data from a variety of sources into a consistent geographic coordinate system.\nUAV Toolbox is an application that provides tools and reference applications for designing, simulating, testing, and deploying unmanned aerial vehicle (UAV) and drone applications. You can design autonomous flight algorithms, UAV missions, and flight controllers. The Flight Log Analyzer app lets you interactively analyze 3D flight paths, telemetry information, and sensor readings from common flight log formats.\nParallel Computing Toolbox™ is a tool that lets you solve computationally and data-intensive problems using multicore processors, GPUs, and computer clusters. High-level constructs such as parallel for-loops, special array types, and parallelized numerical algorithms enable you to parallelize MATLAB® applications without CUDA or MPI programming. The toolbox lets you use parallel-enabled functions in MATLAB and other toolboxes. You can use the toolbox with Simulink® to run multiple simulations of a model in parallel. Programs and models can run in both interactive and batch modes.\nPartial Differential Equation Toolbox™ is a tool that provides functions for solving structural mechanics, heat transfer, and general partial differential equations (PDEs) using finite element analysis.\nROS Toolbox is a tool that provides an interface connecting MATLAB® and Simulink® with the Robot Operating System (ROS and ROS 2), enabling you to create a network of ROS nodes. The toolbox includes MATLAB functions and Simulink blocks to import, analyze, and play back ROS data recorded in rosbag files. You can also connect to a live ROS network to access ROS messages.\nRobotics Toolbox™ provides a toolbox that brings robotics specific functionality(designing, simulating, and testing manipulators, mobile robots, and humanoid robots) to MATLAB, exploiting the native capabilities of MATLAB (linear algebra, portability, graphics). The toolbox also supports mobile robots with functions for robot motion models (bicycle), path planning algorithms (bug, distance transform, D*, PRM), kinodynamic planning (lattice, RRT), localization (EKF, particle filter), map building (EKF) and simultaneous localization and mapping (EKF), and a Simulink model a of non-holonomic vehicle. The Toolbox also including a detailed Simulink model for a quadrotor flying robot.\nDeep Learning Toolbox™ is a tool that provides a framework for designing and implementing deep neural networks with algorithms, pretrained models, and apps. You can use convolutional neural networks (ConvNets, CNNs) and long short-term memory (LSTM) networks to perform classification and regression on image, time-series, and text data. You can build network architectures such as generative adversarial networks (GANs) and Siamese networks using automatic differentiation, custom training loops, and shared weights. With the Deep Network Designer app, you can design, analyze, and train networks graphically. It can exchange models with TensorFlow™ and PyTorch through the ONNX format and import models from TensorFlow-Keras and Caffe. The toolbox supports transfer learning with DarkNet-53, ResNet-50, NASNet, SqueezeNet and many other pretrained models.\nReinforcement Learning Toolbox™ is a tool that provides an app, functions, and a Simulink® block for training policies using reinforcement learning algorithms, including DQN, PPO, SAC, and DDPG. You can use these policies to implement controllers and decision-making algorithms for complex applications such as resource allocation, robotics, and autonomous systems.\nDeep Learning HDL Toolbox™ is a tool that provides functions and tools to prototype and implement deep learning networks on FPGAs and SoCs. It provides pre-built bitstreams for running a variety of deep learning networks on supported Xilinx® and Intel® FPGA and SoC devices. Profiling and estimation tools let you customize a deep learning network by exploring design, performance, and resource utilization tradeoffs.\nModel Predictive Control Toolbox™ is a tool that provides functions, an app, and Simulink® blocks for designing and simulating controllers using linear and nonlinear model predictive control (MPC). The toolbox lets you specify plant and disturbance models, horizons, constraints, and weights. By running closed-loop simulations, you can evaluate controller performance.\nVision HDL Toolbox™ is a tool that provides pixel-streaming algorithms for the design and implementation of vision systems on FPGAs and ASICs. It provides a design framework that supports a diverse set of interface types, frame sizes, and frame rates. The image processing, video, and computer vision algorithms in the toolbox use an architecture appropriate for HDL implementations.\nSoC Blockset™ is a tool that provides Simulink® blocks and visualization tools for modeling, simulating, and analyzing hardware and software architectures for ASICs, FPGAs, and systems on a chip (SoC). You can build your system architecture using memory models, bus models, and I/O models, and simulate the architecture together with the algorithms.\nWireless HDL Toolbox™ is a tool that provides pre-verified, hardware-ready Simulink® blocks and subsystems for developing 5G, LTE, and custom OFDM-based wireless communication applications. It includes reference applications, IP blocks, and gateways between frame and sample-based processing.\nThingSpeak™ is an IoT analytics service that allows you to aggregate, visualize, and analyze live data streams in the cloud. ThingSpeak provides instant visualizations of data posted by your devices to ThingSpeak. With the ability to execute MATLAB® code in ThingSpeak, you can perform online analysis and process data as it comes in. ThingSpeak is often used for prototyping and proof-of-concept IoT systems that require analytics.\nSEA-MAT is a collaborative effort to organize and distribute Matlab tools for the Oceanographic Community.\nhctsa is a software package for running highly comparative time-series analysis using Matlab.\nPlotly is a Graphing Library for MATLAB.\nYALMIP is a MATLAB toolbox for optimization modeling.\nGNU Octave is a high-level interpreted language, primarily intended for numerical computations. It provides capabilities for the numerical solution of linear and nonlinear problems, and for performing other numerical experiments. It also provides extensive graphics capabilities for data visualization and manipulation.",
+          "node_type": "group",
+          "title": "MATLAB Tools, Libraries, Frameworks"
+        }
+      ],
+      "title": "MATLAB Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "C++ Core Guidelines",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41058054,
+                "language": "CSS",
+                "last_commit": "2026-08-06T15:54:13Z",
+                "owner": "isocpp",
+                "repo": "CppCoreGuidelines",
+                "stars": 45264
+              }
+            }
+          ],
+          "description": "C++ is a cross-platform language that can be used to build high-performance applications developed by Bjarne Stroustrup, as an extension to the C language.\nC is a general-purpose, high-level language that was originally developed by Dennis M. Ritchie to develop the UNIX operating system at Bell Labs. It supports structured programming, lexical variable scope, and recursion, with a static type system. C also provides constructs that map efficiently to typical machine instructions, which makes it one was of the most widely used programming languages today.\nEmbedded C is a set of language extensions for the C programming language by the C Standards Committee to address issues that exist between C extensions for different embedded systems. The extensions hep enhance microprocessor features such as fixed-point arithmetic, multiple distinct memory banks, and basic I/O operations. This makes Embedded C the most popular embedded software language in the world.\nC & C++ Developer Tools from JetBrains\nOpen source C++ libraries on cppreference.com\nC++ Graphics libraries\nC++ Libraries in MATLAB\nC++ Tools and Libraries Articles\nGoogle C++ Style Guide\nIntroduction C++ Education course on Google Developers\nC++ style guide for Fuchsia\nC and C++ Coding Style Guide by OpenTitan\nChromium C++ Style Guide\nC++ Style Guide for ROS\nLearn C++\nLearn C : An Interactive C Tutorial\nC++ Institute\nC++ Online Training Courses on LinkedIn Learning\nC++ Tutorials on W3Schools\nLearn C Programming Online Courses on edX\nLearn C++ with Online Courses on edX\nLearn C++ on Codecademy\nCoding for Everyone: C and C++ course on Coursera\nC++ For C Programmers on Coursera\nTop C Courses on Coursera\nC++ Online Courses on Udemy\nTop C Courses on Udemy\nBasics of Embedded C Programming for Beginners on Udemy\nC++ For Programmers Course on Udacity\nC++ Fundamentals Course on Pluralsight\nIntroduction to C++ on MIT Free Online Course Materials\nIntroduction to C++ for Programmers | Harvard\nOnline C Courses | Harvard University",
+          "node_type": "group",
+          "title": "C/C++ Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Azure SDK for C++",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 233147271,
+                "language": "C++",
+                "last_commit": "2026-08-24T06:44:07Z",
+                "owner": "Azure",
+                "repo": "azure-sdk-for-cpp",
+                "stars": 204
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Azure SDK for C",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 195472455,
+                "language": "C",
+                "last_commit": "2026-07-15T18:38:48Z",
+                "owner": "Azure",
+                "repo": "azure-sdk-for-c",
+                "stars": 242
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "C++ Client Libraries for Google Cloud Services",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 111860063,
+                "language": "C++",
+                "last_commit": "2026-08-24T14:35:43Z",
+                "owner": "googleapis",
+                "repo": "google-cloud-cpp",
+                "stars": 659
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Vcpkg",
+              "description": "is a C++ Library Manager for Windows, Linux, and MacOS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 68312233,
+                "language": "CMake",
+                "last_commit": "2026-08-24T11:17:53Z",
+                "owner": "microsoft",
+                "repo": "vcpkg",
+                "stars": 27390
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CppSharp",
+              "description": "is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9988318,
+                "language": "C#",
+                "last_commit": "2026-05-18T12:47:02Z",
+                "owner": "mono",
+                "repo": "CppSharp",
+                "stars": 3403
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Thrust",
+              "description": "is a C++ parallel programming library which resembles the C++ Standard Library. Thrust's high-level interface greatly enhances programmer productivity while enabling performance portability between GPUs and multicore CPUs. Interoperability with established technologies such as CUDA, TBB, and OpenMP integrates with existing software.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 3633213,
+                "language": "C++",
+                "last_commit": "2024-02-08T15:54:40Z",
+                "owner": "NVIDIA",
+                "repo": "thrust",
+                "stars": 5002
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "JavaCPP",
+              "description": "is a program that provides efficient access to native C++ inside Java, not unlike the way some C/C++ compilers interact with assembly language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 18992193,
+                "language": "Java",
+                "last_commit": "2026-08-10T23:19:17Z",
+                "owner": "bytedeco",
+                "repo": "javacpp",
+                "stars": 4705
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Spdlog",
+              "description": "is a very fast, header-only/compiled, C++ logging library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 26038648,
+                "language": "C++",
+                "last_commit": "2026-08-08T10:51:08Z",
+                "owner": "gabime",
+                "repo": "spdlog",
+                "stars": 29520
+              }
+            }
+          ],
+          "description": "AWS SDK for C++\nVisual Studio is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.\nVisual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.\nReSharper C++ is a Visual Studio Extension for C++ developers developed by JetBrains.\nAppCode is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages. All code inspections are run on the fly.\nCLion is a cross-platform IDE for C and C++ developers developed by JetBrains.\nCode::Blocks is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable. Built around a plugin framework, Code::Blocks can be extended with plugins.\nConan is an Open Source Package Manager for C++ development and dependency management into the 21st century and on par with the other development ecosystems.\nHigh Performance Computing (HPC) SDK is a comprehensive toolbox for GPU accelerating HPC modeling and simulation applications. It includes the C, C++, and Fortran compilers, libraries, and analysis tools necessary for developing HPC applications on the NVIDIA platform.\nBoost is an educational opportunity focused on cutting-edge C++. Boost has been a participant in the annual Google Summer of Code since 2007, in which students develop their skills by working on Boost Library development.\nAutomake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of GNU Autoconf.\nCmake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.\nGDB is a debugger, that allows you to see what is going on `inside' another program while it executes or what another program was doing at the moment it crashed.\nGCC is a compiler Collection that includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages.\nGSL is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.\nOpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform.\nLibtool is a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface. To use Libtool, add the new generic library building commands to your Makefile, Makefile.in, or Makefile.am.\nMaven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.\nTAU (Tuning And Analysis Utilities) is capable of gathering performance information through instrumentation of functions, methods, basic blocks, and statements as well as event-based sampling. All C++ language features are supported including templates and namespaces.\nClang is a production quality C, Objective-C, C++ and Objective-C++ compiler when targeting X86-32, X86-64, and ARM (other targets may have caveats, but are usually easy to fix). Clang is used in production to build performance-critical software like Google Chrome or Firefox.\nOpenCV is a highly optimized library with focus on real-time applications. Cross-Platform C++, Python and Java interfaces support Linux, MacOS, Windows, iOS, and Android.\nLibcu++ is the NVIDIA C++ Standard Library for your entire system. It provides a heterogeneous implementation of the C++ Standard Library that can be used in and between CPU and GPU code.\nANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.\nOat++ is a light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.\nCython is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.\nInfer is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in OCaml.",
+          "node_type": "group",
+          "title": "C/C++ Tools, Libraries and Frameworks"
+        }
+      ],
+      "title": "C/C++ Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "MSBuild",
+              "description": "is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 32051890,
+                "language": "C#",
+                "last_commit": "2026-08-24T13:40:39Z",
+                "owner": "dotnet",
+                "repo": "msbuild",
+                "stars": 5542
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bot Framework",
+              "description": "is a framework developed by Microsoft that provides the most comprehensive experience for building conversation applications. Developers can model and build sophisticated conversation using their favorite programming languages including C#, JS, Python and Java or using Bot Framework Composer, an open-source, visual authoring canvas for developers and multi-disciplinary teams to design and build conversational experiences with Language.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 53092757,
+                "language": "JavaScript",
+                "last_commit": "2025-12-29T17:45:58Z",
+                "owner": "microsoft",
+                "repo": "botframework-sdk",
+                "stars": 7808
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Quasar",
+              "description": "is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 21611723,
+                "language": "C#",
+                "last_commit": "2024-02-29T06:37:37Z",
+                "owner": "quasar",
+                "repo": "Quasar",
+                "stars": 9908
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CodeMaid",
+              "description": "is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22008449,
+                "language": "C#",
+                "last_commit": "2025-10-13T14:27:40Z",
+                "owner": "codecadwallader",
+                "repo": "codemaid",
+                "stars": 1984
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AutoRest",
+              "description": "is a tool generates client libraries for accessing RESTful web services using the OpenAPI Specification format. It Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 31089461,
+                "language": "TypeSpec",
+                "last_commit": "2026-08-12T02:50:09Z",
+                "owner": "Azure",
+                "repo": "autorest",
+                "stars": 4798
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Markdig",
+              "description": "is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59669326,
+                "language": "C#",
+                "last_commit": "2026-08-18T16:02:42Z",
+                "owner": "xoofx",
+                "repo": "markdig",
+                "stars": 5306
+              }
+            }
+          ],
+          "description": "Mono is a software platform designed to allow developers to easily create cross platform applications. It is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime.\nVisual Studio is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.\nRoslyn is a .NET compiler developed by Microsoft that provides C# and Visual Basic languages with rich code analysis APIs.\nUno Platform is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, macOS, WebAssembly, Linux and Windows 7. It provides the full definitions of the UWP Windows 10 2004 (19041), and the implementation of a growing number of parts of the UWP API, such as Windows.UI.Xaml, to enable UWP and WinUI applications to run on these platforms.\nRider is a fast and powerful, cross-platform .NET IDE devloped by JetBrains to develop .NET, ASP.NET, .NET Core, Xamarin; or Unity applications for Windows, Mac, Linux.\nResharper is a Visual Studio Extension for .NET Developers that has On-the-fly code quality analysis for C#, VB.NET, XAML, ASP.NET, ASP.NET MVC, JavaScript, TypeScript, CSS, HTML, and XML. Letting you know right away if your code needs to be improved.\ndotPeek is a tool developed by JetBrains based on ReSharper's bundled decompiler. It can reliably decompile any .NET assembly into equivalent C# or CIL code.\ndotTrace is an .NET performance Profiler developed by Jet Brains. It helps users locate performance bottlenecks in a variety of .NET applications: desktop applications, .NET Core, ASP.NET, ASP.NET Core applications hosted on IIS or IIS Express web servers, Silverlight, WCF services, Windows services, Universal Windows Platform applications, and unit tests.\ndotMemory is an .NET memory Profiler developed by Jet Brains. It allows the user to analyze memory usage in a variety of .NET and .NET Core applications: desktop applications, Windows services, ASP.NET web applications, IIS, IIS Express, arbitrary .NET processes, and more.\ndotCover is an .NET unit test runner and code coverage tool developed by Jet Brains. It helps the user figure out on-the-fly which unit tests are affected by your latest code changes, and automatically re-runs the affected tests for you. The continuous testing mode can be switched on for any unit test session.\nJson.NET is a popular high-performance JSON framework for .NET.\n.NET Fiddle is an advanced online compiler for C# that allows you to create, run and share your code online.\nOctopus Deploy is a single place for your team to manage releases, automate deployments, and automate the runbooks that keeps your software operating.\nAppveyor is a cloud-based continuous integration system that integrates natively with your source control and allows CI configuration files to live alongside your projects.\nAppHarbor is a .NET Platform-as-a-Service that let's developers deploy and scale any standard .NET application to the cloud.\nANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.",
+          "node_type": "group",
+          "title": "C# Tools, Libraries and Frameworks"
+        }
+      ],
+      "title": "C# Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "The Python Open Source Computer Science Degree by Forrest Knight",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 289710302,
+                "language": null,
+                "last_commit": "2025-06-11T17:17:33Z",
+                "owner": "ForrestKnight",
+                "repo": "open-source-cs-python",
+                "stars": 3959
+              }
+            }
+          ],
+          "description": "Python is an interpreted, high-level programming language. Python is used heavily in the fields of Data Science and Machine Learning.\nPython Developer’s Guide is a comprehensive resource for contributing to Python – for both new and experienced contributors. It is maintained by the same community that maintains Python.\nAzure Functions Python developer guide is an introduction to developing Azure Functions using Python. The content below assumes that you've already read the Azure Functions developers guide.\nCheckiO is a programming learning platform and a gamified website that teaches Python through solving code challenges and competing for the most elegant and creative solutions.\nPython Institute\nPCEP – Certified Entry-Level Python Programmer certification\nPCAP – Certified Associate in Python Programming certification\nPCPP – Certified Professional in Python Programming 1 certification\nPCPP – Certified Professional in Python Programming 2\nMTA: Introduction to Programming Using Python Certification\nGetting Started with Python in Visual Studio Code\nGoogle's Python Style Guide\nGoogle's Python Education Class\nReal Python\nIntro to Python for Data Science\nIntro to Python by W3schools\nCodecademy's Python 3 course\nLearn Python with Online Courses and Classes from edX\nPython Courses Online from Coursera",
+          "node_type": "group",
+          "title": "Python Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Pylance",
+              "description": "is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 265902625,
+                "language": "Python",
+                "last_commit": "2026-08-18T16:10:27Z",
+                "owner": "microsoft",
+                "repo": "pylance-release",
+                "stars": 2113
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pyright",
+              "description": "is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 175129788,
+                "language": "Python",
+                "last_commit": "2026-08-22T01:26:26Z",
+                "owner": "microsoft",
+                "repo": "pyright",
+                "stars": 15596
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AWS Chalice",
+              "description": "is a framework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59868262,
+                "language": "Python",
+                "last_commit": "2026-08-12T15:03:00Z",
+                "owner": "aws",
+                "repo": "chalice",
+                "stars": 11061
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HTTPie",
+              "description": "is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3544424,
+                "language": "Python",
+                "last_commit": "2024-12-17T17:30:35Z",
+                "owner": "httpie",
+                "repo": "cli",
+                "stars": 38446
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pipenv",
+              "description": "is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 79510167,
+                "language": "Python",
+                "last_commit": "2026-08-21T02:43:02Z",
+                "owner": "pypa",
+                "repo": "pipenv",
+                "stars": 25039
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Python Fire",
+              "description": "is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 82729529,
+                "language": "Python",
+                "last_commit": "2026-07-01T08:19:02Z",
+                "owner": "google",
+                "repo": "python-fire",
+                "stars": 28205
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bottle",
+              "description": "is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 239940,
+                "language": "Python",
+                "last_commit": "2026-07-19T07:21:52Z",
+                "owner": "bottlepy",
+                "repo": "bottle",
+                "stars": 8776
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sanic",
+              "description": "is a Python 3.6+ web server and web framework that's written to go fast.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59720190,
+                "language": "Python",
+                "last_commit": "2026-07-29T03:09:51Z",
+                "owner": "sanic-org",
+                "repo": "sanic",
+                "stars": 18643
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Neural Network Intelligence(NNI)",
+              "description": "is an open source AutoML toolkit for automate machine learning lifecycle, including Feature Engineering, Neural Architecture Search, Model Compression and Hyperparameter Tuning.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 135673451,
+                "language": "Python",
+                "last_commit": "2024-07-03T10:55:10Z",
+                "owner": "microsoft",
+                "repo": "nni",
+                "stars": 14362
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Luigi",
+              "description": "is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 5888353,
+                "language": "Python",
+                "last_commit": "2026-07-18T11:15:46Z",
+                "owner": "spotify",
+                "repo": "luigi",
+                "stars": 18765
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Locust",
+              "description": "is an easy to use, scriptable and scalable performance testing tool.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1377867,
+                "language": "Python",
+                "last_commit": "2026-08-24T09:06:41Z",
+                "owner": "locustio",
+                "repo": "locust",
+                "stars": 28094
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "spaCy",
+              "description": "is a library for advanced Natural Language Processing in Python and Cython.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 21467110,
+                "language": "Python",
+                "last_commit": "2026-08-24T08:26:10Z",
+                "owner": "explosion",
+                "repo": "spaCy",
+                "stars": 33840
+              }
+            }
+          ],
+          "description": "Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.\nPyCharm is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.\nPython Tools for Visual Studio(PTVS) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.\nDjango is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\nFlask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.\nWeb2py is an open-source web application framework written in Python allowing allows web developers to program dynamic web content. One web2py instance can run multiple web sites using different databases.\nTornado is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.\nScrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.\nSentry is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.\nCherryPy is a minimalist Python object-oriented HTTP web framework.\nPyramid is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.\nTurboGears is a hybrid web framework able to act both as a Full Stack framework or as a Microframework.\nFalcon is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.\nDash is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.\nNumPy is the fundamental package needed for scientific computing with Python.\nPillow is a friendly PIL(Python Imaging Library) fork.\nIPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.\nGraphLab Create is a Python library, backed by a C++ engine, for quickly building large-scale, high-performance machine learning models.\nPandas is a fast, powerful, and easy to use open source data structrures, data analysis and manipulation tool, built on top of the Python programming language.\nPuLP is an Linear Programming modeler written in python. PuLP can generate LP files and call on use highly optimized solvers, GLPK, COIN CLP/CBC, CPLEX, and GUROBI, to solve these linear problems.\nMatplotlib is a 2D plotting library for creating static, animated, and interactive visualizations in Python. Matplotlib produces publication-quality figures in a variety of hardcopy formats and interactive environments across platforms.\nScikit-Learn is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.",
+          "node_type": "group",
+          "title": "Python Frameworks and Tools"
+        }
+      ],
+      "title": "Python Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Microsoft's Project Verona",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 208366483,
+                "language": "C++",
+                "last_commit": "2026-02-28T11:17:30Z",
+                "owner": "microsoft",
+                "repo": "verona",
+                "stars": 3727
+              }
+            }
+          ],
+          "description": "Rust is a multi-paradigm programming language focused on performance and safety. Rust has a comparable amount of runtime to C and C++, and has set up its standard library to be amenable towards OS development. Specifically, the standard library is split into two parts: core and std. Core is the lowest-level aspects only, and doesn't include things like allocation, threading, and other higher-level features.\nThe Rust Language Reference\nThe Rust Programming Language Book\nLearning Rust\nWhy AWS loves Rust\nRust Programming courses on Udemy\nSafety in Systems Programming with Rust at Standford by Ryan Eberhardt\nWebAssembly meets Kubernetes with Krustlet using Rust",
+          "node_type": "group",
+          "title": "Rust Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cargo",
+              "description": "is a package manager that downloads your Rust project’s dependencies and compiles your project.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 17420913,
+                "language": "Rust",
+                "last_commit": "2026-08-24T04:36:35Z",
+                "owner": "rust-lang",
+                "repo": "cargo",
+                "stars": 15421
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "VSCode-Rust",
+              "description": "is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 67259856,
+                "language": "TypeScript",
+                "last_commit": "2022-11-15T17:22:45Z",
+                "owner": "rust-lang",
+                "repo": "vscode-rust",
+                "stars": 1398
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Apache Arrow",
+              "description": "is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51905353,
+                "language": "C++",
+                "last_commit": "2026-08-24T11:33:26Z",
+                "owner": "apache",
+                "repo": "arrow",
+                "stars": 17047
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tokio",
+              "description": "is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 67836789,
+                "language": "Rust",
+                "last_commit": "2026-08-20T06:57:25Z",
+                "owner": "tokio-rs",
+                "repo": "tokio",
+                "stars": 32993
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TiKV",
+              "description": "is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 48833910,
+                "language": "Rust",
+                "last_commit": "2026-08-24T06:34:47Z",
+                "owner": "tikv",
+                "repo": "tikv",
+                "stars": 16808
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hyper",
+              "description": "is a fast and correct HTTP library for Rust.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 23500865,
+                "language": "Rust",
+                "last_commit": "2026-08-24T12:13:00Z",
+                "owner": "hyperium",
+                "repo": "hyper",
+                "stars": 16287
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Rocket",
+              "description": "is an async web framework for Rust with a focus on usability, security, extensibility, and speed.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 54168759,
+                "language": "Rust",
+                "last_commit": "2025-12-28T18:27:39Z",
+                "owner": "rwf2",
+                "repo": "Rocket",
+                "stars": 25779
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Servo",
+              "description": "is a prototype web browser engine written in the Rust language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3390243,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:43:04Z",
+                "owner": "servo",
+                "repo": "servo",
+                "stars": 37784
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RustPython",
+              "description": "is a Python Interpreter written in Rust.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 135201145,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:27:05Z",
+                "owner": "RustPython",
+                "repo": "RustPython",
+                "stars": 22301
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Miri",
+              "description": "is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 46083140,
+                "language": "Rust",
+                "last_commit": "2026-08-24T12:56:00Z",
+                "owner": "rust-lang",
+                "repo": "miri",
+                "stars": 6523
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Simpleinfra",
+              "description": "is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 97986310,
+                "language": "HCL",
+                "last_commit": "2026-08-24T09:53:39Z",
+                "owner": "rust-lang",
+                "repo": "simpleinfra",
+                "stars": 175
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Rustlings",
+              "description": "is a small set of exercises to get you used to reading and writing Rust code.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 42489829,
+                "language": "Rust",
+                "last_commit": "2026-08-22T11:33:37Z",
+                "owner": "rust-lang",
+                "repo": "rustlings",
+                "stars": 63935
+              }
+            }
+          ],
+          "description": "Crater is a tool to run experiments across parts of the Rust ecosystem. Its primary purpose is to detect regressions in the Rust compiler, and it does this by building a large number of crates, running their test suites and comparing the results between two versions of the Rust compiler. It can operate locally (with Docker as the only dependency) or distributed on the cloud. It can operate locally (with Docker as the only dependency) or distributed on the cloud.\nWasmer enables super lightweight containers based on WebAssembly that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in any programming language.\nFirecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers. Firecracker has also been integrated in container runtimes, for example Kata Containers and Weaveworks Ignite.\nSonic is a fast, lightweight and schema-less search backend similar to Elasticsearch in some use-cases.\nClippy is a collection of lints to catch common mistakes and improve your Rust code.\nVector is a high-performance, end-to-end (agent & aggregator) observability data platform that puts the user in control of their observability data.\nChalk is an implementation and definition of the Rust trait system using a PROLOG-like logic solver.\nstdarch is Rust's standard library vendor-specific APIs and run-time feature detection.\nKrustlet acts as a Kubernetes Kubelet(written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes tolerations. The project is currently experimental.",
+          "node_type": "group",
+          "title": "Rust Tools, Libraries, and Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Bottlerocket OS",
+              "description": "is an open-source Linux-based operating system meant for hosting containers. Bottlerocket focuses on security and maintainability, providing a reliable, consistent, and safe platform for container-based workloads.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 179385712,
+                "language": "Rust",
+                "last_commit": "2026-08-19T05:25:27Z",
+                "owner": "bottlerocket-os",
+                "repo": "bottlerocket",
+                "stars": 9663
+              }
+            }
+          ],
+          "description": "Redox is a Unix-like Operating System written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications. Acitvely being developed by Jeremy Soeller.\nTock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers. Tock uses two mechanisms to protect different components of the operating system. First, the kernel and device drivers are written in Rust, a systems programming language that provides compile-time memory safety, type safety and strict aliasing. Tock uses Rust to protect the kernel (the scheduler and hardware abstraction layer) from platform specific device drivers as well as isolate device drivers from each other. Second, Tock uses memory protection units to isolate applications from each other and the kernel.",
+          "node_type": "group",
+          "title": "Rust-based Operating Systems"
+        }
+      ],
+      "title": "Rust Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Uber's Go Style Guide",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 157008425,
+                "language": "Makefile",
+                "last_commit": "2026-04-15T15:10:48Z",
+                "owner": "uber-go",
+                "repo": "guide",
+                "stars": 17659
+              }
+            }
+          ],
+          "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.\nGolang Contribution Guide\nGoogle Developers Training\nGoogle Developers Certification\nGitLab's Go standards and style guidelines\nEffective Go\nGo: The Complete Developer's Guide (Golang) on Udemy\nGetting Started with Go on Coursera\nProgramming with Google Go on Coursera\nLearning Go Fundamentals on Pluralsight\nLearning Go on Codecademy",
+          "node_type": "group",
+          "title": "Go Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Traefik",
+              "description": "is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 42408804,
+                "language": "Go",
+                "last_commit": "2026-08-24T14:40:13Z",
+                "owner": "traefik",
+                "repo": "traefik",
+                "stars": 64562
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gitea",
+              "description": "is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 72495579,
+                "language": "Go",
+                "last_commit": "2026-08-24T11:37:20Z",
+                "owner": "go-gitea",
+                "repo": "gitea",
+                "stars": 57570
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenFaaS",
+              "description": "is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 77144337,
+                "language": "Go",
+                "last_commit": "2026-07-02T09:09:13Z",
+                "owner": "openfaas",
+                "repo": "faas",
+                "stars": 26233
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "micro",
+              "description": "is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 53632140,
+                "language": "Go",
+                "last_commit": "2026-08-24T00:16:32Z",
+                "owner": "micro-editor",
+                "repo": "micro",
+                "stars": 29432
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gravitational Teleport",
+              "description": "is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 31558937,
+                "language": "Go",
+                "last_commit": "2026-08-21T18:13:10Z",
+                "owner": "gravitational",
+                "repo": "teleport",
+                "stars": 20842
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Act",
+              "description": "is a GO program that allows you to run our GitHub Actions locally.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 163883279,
+                "language": "Go",
+                "last_commit": "2026-08-09T22:50:11Z",
+                "owner": "nektos",
+                "repo": "act",
+                "stars": 71618
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Glide",
+              "description": "is a vendor Package Management for Golang.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 21641241,
+                "language": "Go",
+                "last_commit": "2024-07-22T15:41:52Z",
+                "owner": "Masterminds",
+                "repo": "glide",
+                "stars": 8087
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BadgerDB",
+              "description": "is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for Dgraph, a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 80087836,
+                "language": "Go",
+                "last_commit": "2026-08-22T14:15:18Z",
+                "owner": "dgraph-io",
+                "repo": "badger",
+                "stars": 15758
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Go kit",
+              "description": "is a programming toolkit for building microservices (or elegant monoliths) in Go. We solve common problems in distributed systems and application architecture so you can focus on delivering business value.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 30215630,
+                "language": "Go",
+                "last_commit": "2024-07-19T01:40:06Z",
+                "owner": "go-kit",
+                "repo": "kit",
+                "stars": 27424
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Codis",
+              "description": "is a proxy based high performance Redis cluster solution written in Go.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 25804514,
+                "language": "Go",
+                "last_commit": "2024-04-15T03:46:45Z",
+                "owner": "CodisLabs",
+                "repo": "codis",
+                "stars": 13223
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "zap",
+              "description": "is a blazing fast, structured, leveled logging in Go.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 52034309,
+                "language": "Go",
+                "last_commit": "2026-08-05T23:33:47Z",
+                "owner": "uber-go",
+                "repo": "zap",
+                "stars": 24640
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HttpRouter",
+              "description": "is a lightweight high performance HTTP request router (also called multiplexer or just mux for short) for Go.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 14956897,
+                "language": "Go",
+                "last_commit": "2024-07-22T10:31:53Z",
+                "owner": "julienschmidt",
+                "repo": "httprouter",
+                "stars": 17128
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gorilla WebSocket",
+              "description": "is a Go implementation of the WebSocket protocol.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 13624859,
+                "language": "Go",
+                "last_commit": "2025-03-19T13:29:08Z",
+                "owner": "gorilla",
+                "repo": "websocket",
+                "stars": 24855
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Delve",
+              "description": "is a debugger for the Go programming language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 19994257,
+                "language": "Go",
+                "last_commit": "2026-08-21T18:04:30Z",
+                "owner": "go-delve",
+                "repo": "delve",
+                "stars": 24892
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GORM",
+              "description": "is a fantastic ORM library for Golang, aims to be developer friendly.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 13855476,
+                "language": "Go",
+                "last_commit": "2026-06-25T07:21:11Z",
+                "owner": "go-gorm",
+                "repo": "gorm",
+                "stars": 39924
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Go Patterns",
+              "description": "is a curated collection of idiomatic design & application patterns for Go language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 48003886,
+                "language": "Go",
+                "last_commit": "2024-05-14T01:07:28Z",
+                "owner": "tmrts",
+                "repo": "go-patterns",
+                "stars": 28195
+              }
+            }
+          ],
+          "description": "golang tools holds the source for various packages and tools that support the Go programming language.\nGo in Visual Studio Code is an extension that gives you language features like IntelliSense, code navigation, symbol search, bracket matching, snippets, and many more that will help you in Golang development.\nNATS is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation (CNCF). NATS has over 30 client language implementations, and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.\nFiber is an Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.",
+          "node_type": "group",
+          "title": "Go Tools and Frameworks"
+        }
+      ],
+      "title": "Go Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Java Design Patterns",
+              "description": "is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22790488,
+                "language": "Java",
+                "last_commit": "2026-08-17T22:42:48Z",
+                "owner": "iluwatar",
+                "repo": "java-design-patterns",
+                "stars": 94610
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RxJava",
+              "description": "is a Java VM implementation of Reactive Extensions: a library for composing asynchronous and event-based programs by using observable sequences. It extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 7508411,
+                "language": "Java",
+                "last_commit": "2026-08-24T05:34:22Z",
+                "owner": "ReactiveX",
+                "repo": "RxJava",
+                "stars": 48204
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Guava",
+              "description": "is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 20300177,
+                "language": "Java",
+                "last_commit": "2026-08-21T16:00:37Z",
+                "owner": "google",
+                "repo": "guava",
+                "stars": 51890
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Fastjson",
+              "description": "is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 2700474,
+                "language": "Java",
+                "last_commit": "2026-07-29T08:04:40Z",
+                "owner": "alibaba",
+                "repo": "fastjson",
+                "stars": 25598
+              }
+            }
+          ],
+          "description": "Java SE contains several tools to assist in program development and debugging, and in the monitoring and troubleshooting of production applications.\nJDK Development Tools includes the Java Web Start Tools (javaws) Java Troubleshooting, Profiling, Monitoring and Management Tools (jcmd, jconsole, jmc, jvisualvm); and Java Web Services Tools (schemagen, wsgen, wsimport, xjc).\nAndroid Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Availble on Windows, macOS, Linux, Chrome OS.\nIntelliJ IDEA is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.\nNetBeans is an IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications. Creating, Editing, and Refactoring. The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications.\nElasticsearch is a distributed RESTful search engine built for the cloud written in Java.\nokhttp is a HTTP client for Java and Kotlin developed by Square.\nRetrofit is a type-safe HTTP client for Android and Java develped by Square.\nLeakCanary is a memory leak detection library for Android develped by Square.\nApache Spark is a unified analytics engine for large-scale data processing. It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for stream processing.\nApache Flink is an open source stream processing framework with powerful stream- and batch-processing capabilities with elegant and fluent APIs in Java and Scala.\nlibGDX is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS.\nJenkins is the leading open-source automation server. Built with Java, it provides over 1700 plugins to support automating virtually anything, so that humans can actually spend their time doing things machines cannot.\nDBeaver is a free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports any database which has JDBC driver (which basically means - ANY database). EE version also supports non-JDBC datasources (MongoDB, Cassandra, Redis, DynamoDB, etc).\nRedisson is a Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, and local cache.\nGraalVM is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Clojure, Kotlin, and LLVM-based languages such as C and C++.\nGradle is a build automation tool for multi-language software development. From mobile apps to microservices, from small startups to big enterprises, Gradle helps teams build, automate and deliver better software, faster. Write in Java, C++, Python or your language of choice.\nApache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.\nJaCoCo is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years.\nApache JMeter is used to test performance both on static and dynamic resources, Web dynamic applications. It also used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types.\nJunit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.\nMockito is the most popular Mocking framework for unit tests written in Java.\nSpotBugs is a program which uses static analysis to look for bugs in Java code.\nSpringBoot is a great tool that helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.\nYourKit is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.",
+          "node_type": "group",
+          "title": "Java Tools, Libraries, and Frameworks"
+        }
+      ],
+      "title": "Java Development"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Swift Evolution",
+              "description": "maintains proposals for changes and user-visible enhancements to the Swift Programming Language.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 45497910,
+                "language": "Markdown",
+                "last_commit": "2026-08-24T11:55:29Z",
+                "owner": "swiftlang",
+                "repo": "swift-evolution",
+                "stars": 15868
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Swift GitHub",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 44838949,
+                "language": "Swift",
+                "last_commit": "2026-08-24T07:25:29Z",
+                "owner": "swiftlang",
+                "repo": "swift",
+                "stars": 70280
+              }
+            }
+          ],
+          "description": "Swift is Apple's main programming language for iOS, macOS, watchOS, and tvOS app development. Though, many parts of Swift will be familiar to developers from their experience of developing in C and Objective-C.\nXcode + Swift makes developing applications for MacOS and iOS fast and fun.\nSwift 5.3 Basics\nStart Developing iOS Apps with Swift\nApple Developer Documentation\nApple Foundation Framework\nApple Core Animation Framework\nApple Core Graphics Framework\nVirtualization Framework\nParavirtualized Graphics Framework\nGetting Started with LLDB\nMac Catalyst - iOS - Human Interface Guidelines\nAmazon EC2 Mac Instances\nApple Developer Forums\nSwift Forums\nGoogle's Swift Style Guide\nSwift Courses Online from Coursera\nSwift Courses Online from Udemy\nLearning Swift course from Codecademy",
+          "node_type": "group",
+          "title": "Swift Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Vapor",
+              "description": "is a web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website, API, or cloud project.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 49910095,
+                "language": "Swift",
+                "last_commit": "2026-08-24T12:11:56Z",
+                "owner": "vapor",
+                "repo": "vapor",
+                "stars": 26190
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hero",
+              "description": "is a library for building iOS view controller transitions. It provides a declarative layer on top of the UIKit's cumbersome transition APIs—making custom transitions an easy task for developers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74697963,
+                "language": "Swift",
+                "last_commit": "2025-01-23T20:27:30Z",
+                "owner": "HeroTransitions",
+                "repo": "Hero",
+                "stars": 22487
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kingfisher",
+              "description": "is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 33486016,
+                "language": "Swift",
+                "last_commit": "2026-08-21T03:32:49Z",
+                "owner": "onevcat",
+                "repo": "Kingfisher",
+                "stars": 24390
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Realm",
+              "description": "is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4044891,
+                "language": "Objective-C",
+                "last_commit": "2026-06-14T23:57:29Z",
+                "owner": "realm",
+                "repo": "realm-swift",
+                "stars": 16611
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Perfect",
+              "description": "is a complete and powerful toolbox, framework, and application server for Linux, iOS, and macOS (OS X). It provides everything a Swift engineer needs for developing lightweight, maintainable, and scalable apps and other REST services entirely in the Swift programming language for both client-facing and server-side applications.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 43568832,
+                "language": "Swift",
+                "last_commit": "2024-02-03T15:38:39Z",
+                "owner": "PerfectlySoft",
+                "repo": "Perfect",
+                "stars": 13744
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Alamofire",
+              "description": "is an HTTP networking library written in Swift.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22458259,
+                "language": "Swift",
+                "last_commit": "2026-08-03T01:00:57Z",
+                "owner": "Alamofire",
+                "repo": "Alamofire",
+                "stars": 42419
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Eureka",
+              "description": "is an elegant iOS form builder in Swift",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 43330374,
+                "language": "Swift",
+                "last_commit": "2024-09-12T17:04:03Z",
+                "owner": "xmartlabs",
+                "repo": "Eureka",
+                "stars": 11804
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Carthage",
+              "description": "is intended to be the simplest way to add frameworks to your Cocoa application. Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 25050844,
+                "language": "Swift",
+                "last_commit": "2025-09-10T15:36:04Z",
+                "owner": "Carthage",
+                "repo": "Carthage",
+                "stars": 15166
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ReactiveCocoa",
+              "description": "is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3606624,
+                "language": "Swift",
+                "last_commit": "2025-09-12T03:55:10Z",
+                "owner": "ReactiveCocoa",
+                "repo": "ReactiveCocoa",
+                "stars": 19815
+              }
+            }
+          ],
+          "description": "Xcode includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging. Xcode 12 is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.\nSwiftUI is a user interface toolkit that provides views, controls, and layout structures for declaring your app's user interface. The SwiftUI framework provides event handlers for delivering taps, gestures, and other types of input to your application.\nUIKit is a framework provides the required infrastructure for your iOS or tvOS apps. It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multi-Touch and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app.\nAppKit is a graphical user interface toolkit that contains all the objects you need to implement the user interface for a macOS app such as windows, panels, buttons, menus, scrollers, and text fields, and it handles all the details for you as it efficiently draws on the screen, communicates with hardware devices and screen buffers, clears areas of the screen before drawing, and clips views.\nARKit is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.\nRealityKit is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.\nSceneKit is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your iOS apps.\nMac Catalyst is a set of Apple APIs that developers can use to rapidly port their iOS apps to Apple Silicon M1 Chip and take full advantage of the new capabilities on the new Apple hardware.\nInstruments is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.\nCocoapods is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.\nAppCode is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.",
+          "node_type": "group",
+          "title": "Swift Tools and Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "If would you like to contribute to this guide simply make a Pull Request",
+              "description": ".",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 423603848,
+                "language": "C++",
+                "last_commit": "2022-03-09T01:34:18Z",
+                "owner": "mikeroyal",
+                "repo": "Virtualization-Emulation-Guide",
+                "stars": 63
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Contribute"
+        }
+      ],
+      "title": "Swift Development"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T02:26:02.208Z",
+    "last_updated": "2026-08-24T14:48:59.833Z",
     "original_repository": "mikeroyal/Virtualization-Emulation-Guide",
     "original_repository_id": 423603848,
     "original_repository_sha": "1eb50d64fd57ad8c1a5ec6e20b229f2103c42681",
